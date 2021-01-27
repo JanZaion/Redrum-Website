@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif;
+    background:  #131212 
+  }
+  /*Header css starts here*/
+.navBar{
+    position: static;
+    background: #e2e2e2;
+    min-height: 46px;    
+}
+.navContainer{
+    width: 1120px;
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 200; 
+}
+.navLeft{
+    margin: 13px 0 10px;
+    padding: 0;
+    width: auto;
+    float: left;
+    display: block;
+    height: 40px;
+    font-size: 16px;
+    z-index: 2;
+    clear: both;
+}
+.navRight{
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    margin-top: 12px;
+    margin-right: 3px;
+    text-align: right;
+    right: 0;
+    width: 100%;
+    line-height: 20px; 
+}
+/*Showcase part starts here*/
+.showcase {
+	width: 100%;
+	height: 93vh;
+	position: relative;	
+}
+.showcase video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index:-1
+}
+.showcaseContent {
+    position: relative;
+	z-index: 2;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 9rem;
+}
+.showcaseContent h1 {
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 1.1;
+	margin: 0 0 2rem;
+}
+
+
+
+/*Crew css stars here*/
+.crewContainer{
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    background:  #2e2b2b    
+}
+.DJroster{
+    width: 100%;
+    margin: 25px 0 0;
+    float: left;
+    display: block;
+    
+}
+.DJ{
+    width: 25%;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    display: block;    
+}
+.DJ a{
+    display: block;
+    line-height: 0;
+    color: #3fbdbe;
+    text-decoration: none;
+}
+.DJ img{
+    width:100%
+
+}
+.DJ h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0;
+}
+.DJinner{
+    background: #3fbdbe;
+    margin: 5px;
+    overflow: hidden;
+    display: block;
+    
+}
+
+.eventContactContainer{
+    
+}
+
+
+/*instructions for responsive design*/
+@media (min-width: 1505px) {
+.DJ {width: 20%;}
+
+}
+@media (min-width: 1145px) and (max-width: 1504px) {
+.DJ {width: 25%;}
+
+}
+@media (min-width: 965px) and (max-width: 1144px) {
+.DJ {width: 33%;}
+
+}
+@media (min-width: 745px) and (max-width: 964px) {
+.DJ {width: 33%;}
+
+}
+
+@media (min-width: 565px) and (max-width: 744px) {
+.DJ {width: 50%;}
+
+}
+
+
+
