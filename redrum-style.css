@@ -1,8 +1,24 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body{
     font-family: sans-serif;
     background:  #131212 
-  }
-  /*Header css starts here*/
+}
+h1{
+    font-size:70px;
+}
+h2{
+    margin: 60px 20px 35px 5px;
+    font-size:40px;
+}
+p{
+    margin: 0 0 0 5px;
+    font-size:16px;
+}
+  /*Header starts here*/
 .navBar{
     position: static;
     background: #e2e2e2;
@@ -64,22 +80,25 @@ body{
 	text-align: center;
 	margin-top: 9rem;
 }
+/*
 .showcaseContent h1 {
 	font-weight: 700;
 	font-size: 5.2rem;
 	line-height: 1.1;
 	margin: 0 0 2rem;
 }
+*/
 
-
-
-/*Crew css stars here*/
-.crewContainer{
+/*generic body classes*/
+.genericContainer{
     width: 1120px;
     margin: 0 auto;
     position: relative;
-    background:  #2e2b2b    
+    background:  #af40be    
 }
+
+/*Crew stars here*/
+/*
 .DJroster{
     width: 100%;
     margin: 25px 0 0;
@@ -87,6 +106,7 @@ body{
     display: block;
     
 }
+*/
 .DJ{
     width: 25%;
     float: left;
@@ -120,9 +140,14 @@ body{
 }
 
 .eventContactContainer{
-    
 }
 
+.eventInner{
+    margin: 5px;
+    overflow: hidden;
+    display: block;
+    
+}
 
 /*instructions for responsive design*/
 @media (min-width: 1505px) {
