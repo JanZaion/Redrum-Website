@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="redrum-style.css">
-    
+    <!--<link rel="stylesheet" href="redrum-style-squished.css">-->
 
     <meta property="og:image" content="/shop/assets/img/hos-logo-large.jpg" />
     <script>
@@ -17,52 +17,51 @@
 </head>
 
 <body>
-    <div class="navBar">
-        <!-- <div class="band b_nav"> used to be here-->
+    <header class="navBar">
         <div class="navContainer">
-            <!-- <div class="nav-container"> used to be here-->
-
             <div class="navLeft">
-                <!-- <div class="nav"> used to be here-->
+                <img src="redrumlogo2.png">
+
+            </div>
+            <div class="navRight">
                 <a href="/" class="nav-item " id="n-home">Home</a>
                 <a href="/shop/music" class="nav-item">Crew</a>
                 <a href="/artists/" class="nav-item nav-active">Events & Contact</a>
             </div>
-            <div class="navRight">
-                <!-- <div class="nav-right"> used to be here-->
-                <a>Maybe put favicons here</a>
-            </div>
 
         </div>
-    </div>
+    </header>
 
     <div class="showcase">
+        <div class="showcase-top"></div>
+
+        <div class="showcaseContent">
+            <h1>Redrum Crew</h1>
+            <p>serving drum & bass since 1999</p>
+        </div>
 
         <video autoplay muted loop>
             <source src="cmc.mp4" type="video/mp4" />
         </video>
 
-        <div class="showcase-content">
-            <h1>Your caption here</h1>
+
+    </div>
+    <div class="content">
+
+        <div class="genericContainer">
+            <h2>About</h2>
+            <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho
+                omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum
+                dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
         </div>
-    </div>
-
-    <div class="genericContainer">
-        <h2>About</h2>
-        <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
-    </div>
 
 
-    <div class="genericContainer">
-        <h2>Crew</h2>
-        <!-- <div class="container"> used to be here-->
-        <!-- apparently this div separates the footer and other stuff-->
-        
-            <!-- <div class="artists-slab"> used to be here-->
+        <div class="genericContainer">
+
+            <h2>Crew</h2>
+
             <div class="DJ">
-                <!-- <div class="artist"> used to be here-->
                 <div class="DJinner">
-                    <!-- <div class="ar-inner "> used to be here-->
                     <a href="https://www.hospitalrecords.com/artists/bop/"><img
                             src="https://www.hospitalrecords.com/wp-content/uploads/2015/02/Bop-BW-FR-GJ-7-596x600-1.jpg" /></a>
                     <a href="https://www.hospitalrecords.com/artists/bop/">
@@ -71,6 +70,13 @@
                 </div>
             </div>
 
+            <div class="DJ">
+                <div class="DJinner"><a href="https://www.hospitalrecords.com/artists/bop/"><img
+                            src="https://www.hospitalrecords.com/wp-content/uploads/2015/02/Bop-BW-FR-GJ-7-596x600-1.jpg" /></a><a
+                        href="https://www.hospitalrecords.com/artists/bop/">
+                        <h3>Bop</h3>
+                    </a></div>
+            </div>
 
             <div class="DJ">
                 <div class="DJinner"><a href="https://www.hospitalrecords.com/artists/bop/"><img
@@ -110,9 +116,10 @@
 
 
 
+        </div>
 
 
-            <!-- original styling
+        <!-- original styling
             <div class="artist">                
                 <div class="ar-inner ">
                     <a href="https://www.hospitalrecords.com/artists/camo-krooked/"><img
@@ -121,15 +128,15 @@
                         <h3>Camo &#038; Krooked</h3>
                     </a>
                 </div>
-            </div>
--->
-        
-    </div>
-    <!-- apparently this div separates the footer and other stuff-->
-    <div class="genericContainer">
-        <h2>Events & Contact</h2>
-        <div class="eventInner">
-            <div class="eventContactContainer">
+            </div>-->
+
+
+
+
+
+        <div class="genericContainer">
+            <h2>Events & Contact</h2>
+            <div class="eventInner">
                 <iframe
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=500&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
                     width="500" height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
@@ -137,26 +144,28 @@
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                 </iframe>
             </div>
+
+            <div class="contactInner">
+                <p>Contact:</p>
+                <p>Tady by byl Email, kdybysme nějakej měli</p>
+                
+            </div>
         </div>
+
     </div>
 
 
-    <div class="band b_footer">
-        <div class="container">
-            <div>
-                <a href="/">Home</a>
-                <a href="/news">Crew</a>
-                <a href="/shop">Events & Contact</a>
+    <footer>
+        <div class="genericContainer">
+            <div class="socialStrip">
+                <a target="_blank" href="https://www.facebook.com/redrum.dnb"><img src="fb.svg"/></a>
+                <a target="_blank" href="https://www.instagram.com/redrum_crew/"><img src="ig.svg" /></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCT7P47mk4PO97jnn0TjsAuw"><img src="yt.svg" /></a>   
+                    
             </div>
-
-
-        </div>
-        <div class="container">
             <div class="footsmall">
                 2021&copy; Redrum Crew
             </div>
         </div>
-
-
-
+    </footer>
 </body>

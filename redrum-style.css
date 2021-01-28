@@ -9,26 +9,47 @@ body{
 }
 h1{
     font-size:70px;
+    color: #e2e2e2;
 }
 h2{
-    margin: 60px 20px 35px 5px;
+    margin: 60px 0px 10px 5px;
     font-size:40px;
 }
 p{
     margin: 0 0 0 5px;
     font-size:16px;
 }
+
+/*generic body classes*/
+.content{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background:  #c2c2c2    
+}
+.genericContainer{
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    background:  #424242;
+    height:auto;
+    overflow:auto;  
+}
+
   /*Header starts here*/
 .navBar{
     position: static;
-    background: #e2e2e2;
-    min-height: 46px;    
+    background: #000000;
+    min-height: 46px;  
+     
 }
 .navContainer{
     width: 1120px;
     height: 46px;
     margin: 0 auto;
     position: relative;
+    height:auto;
+    overflow:auto;   
     z-index: 200; 
 }
 .navLeft{
@@ -46,18 +67,35 @@ p{
     font-size: 15px;
     display: block;
     position: absolute;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-right: 3px;
     text-align: right;
     right: 0;
     width: 100%;
     line-height: 20px; 
 }
+
 /*Showcase part starts here*/
+.showcase-top {
+	position: relative;
+	z-index: 2;
+	height: 90px;
+}
 .showcase {
 	width: 100%;
 	height: 93vh;
 	position: relative;	
+}
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 .showcase video {
     min-width: 100%;
@@ -80,49 +118,38 @@ p{
 	text-align: center;
 	margin-top: 9rem;
 }
-/*
 .showcaseContent h1 {
 	font-weight: 700;
 	font-size: 5.2rem;
 	line-height: 1.1;
-	margin: 0 0 2rem;
+    margin: 0 0 2rem;
+    z-index: 2;
 }
-*/
-
-/*generic body classes*/
-.genericContainer{
-    width: 1120px;
-    margin: 0 auto;
-    position: relative;
-    background:  #af40be    
+.showcaseContent p {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.9rem;
+	line-height: 1.25;
+	margin: 0 0 2rem;
 }
 
 /*Crew stars here*/
-/*
-.DJroster{
-    width: 100%;
-    margin: 25px 0 0;
-    float: left;
-    display: block;
-    
-}
-*/
 .DJ{
     width: 25%;
     float: left;
     margin: 0;
     overflow: hidden;
-    display: block;    
+    display: block;
 }
 .DJ a{
     display: block;
     line-height: 0;
-    color: #3fbdbe;
+    color: #202020;
     text-decoration: none;
 }
 .DJ img{
-    width:100%
-
+    width:100%;
 }
 .DJ h3 {
     text-align: center;
@@ -132,22 +159,44 @@ p{
     margin: 0;
 }
 .DJinner{
-    background: #3fbdbe;
+    background: #4e4e4e;
     margin: 5px;
     overflow: hidden;
-    display: block;
-    
+    display: block; 
 }
 
-.eventContactContainer{
-}
-
+/*Events & Contact starts here*/
 .eventInner{
     margin: 5px;
+    width:45%;
     overflow: hidden;
     display: block;
-    
+    float: left;    
 }
+.contactInner{
+    margin: 5px;
+    width:45%;
+    overflow: hidden;
+    display: block;
+    float: right;    
+}
+
+/*Social media stuff starts here*/
+.socialStrip{
+    display: block;
+    margin: 28px 5px 0 0;
+    line-height: 22px;
+    position: relative;
+    top: 0;
+    right: 0;
+
+}
+.socialStrip img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
+}
+
+
 
 /*instructions for responsive design*/
 @media (min-width: 1505px) {
