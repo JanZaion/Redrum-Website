@@ -124,14 +124,29 @@ p{
 	line-height: 1.1;
     margin: 0 0 2rem;
     z-index: 2;
+    animation-name: heading;
+    animation-duration: 2s;
 }
+
+@keyframes heading {
+  0%   {color:black;}
+  100%  {color:white; left:200px; top:0px;}
+}
+
 .showcaseContent p {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1.9rem;
 	line-height: 1.25;
-	margin: 0 0 2rem;
+    margin: 0 0 2rem;
+    animation-name: subHeading;
+    animation-duration: 3s;
+}
+
+@keyframes subHeading {
+  0%   {color:black;}
+  100%  {color:white; left:200px; top:0px;}
 }
 
 /*Crew stars here*/
