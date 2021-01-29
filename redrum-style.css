@@ -202,6 +202,34 @@ p{
     display: block; 
 }
 
+/*DJ pages start here*/
+.DJcontainer{
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    height:auto;
+    overflow:auto;  
+}
+.DJcontainer h1 {
+    margin: 40px 0px 10px 5px;
+}
+.DJpic{
+    width: 50%;
+    float: right;
+    margin: 0px 0px 20px 0px;
+    overflow: hidden;
+    display: block;
+}
+.DJbio{
+    width: 40%;
+    overflow: hidden;
+    display: inline-block;
+}
+.DJbio img {
+    width: 50px;
+    margin: 30px 2px 0px 5px;
+}
+
 /*Events & Contact starts here*/
 .eventInner{
     margin: 5px;
@@ -218,21 +246,6 @@ p{
     float: right;    
 }
 
-/*Social media stuff starts here*/
-.socialStrip{
-    display: block;
-    margin: 28px 5px 0 0;
-    line-height: 22px;
-    position: relative;
-    top: 0;
-    right: 0;
-
-}
-.socialStrip img{
-    width: 30px;
-    margin: 0px 2px 0px 2px;
-}
-
 /*Footer starts here*/
 .cc{
     margin: 10px 0px 10px 0px;
@@ -244,6 +257,18 @@ p{
     margin: 0 auto;
     position: relative;
     background:  #4e4e4e    
+}
+.socialStrip{
+    display: block;
+    margin: 28px 5px 0 0;
+    line-height: 22px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.socialStrip img{
+    width: 30px;
+    margin: 0px 2px 0px 2px;
 }
 
 
