@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="redrum-style.css">
-    <!--<link rel="stylesheet" href="redrum-style-squished.css">-->
 
     <meta property="og:image" content="/shop/assets/img/hos-logo-large.jpg" />
     <script>
@@ -17,16 +16,19 @@
 </head>
 
 <body>
-    <header class="navBar">
+    <header class="navBar" id="Home"> 
         <div class="navContainer">
             <div class="navLeft">
-                <img src="redrumlogo2.png">
+                <a href="#Home" class="nav-item "><img src="redrumlogo2.png"></a>
 
             </div>
             <div class="navRight">
-                <a href="/" class="nav-item " id="n-home">Home</a>
-                <a href="/shop/music" class="nav-item">Crew</a>
-                <a href="/artists/" class="nav-item nav-active">Events & Contact</a>
+                <ul>
+                    <li><a href="#Home" class="nav-item ">Home</a></li>
+                    <li><a href="#About" class="nav-item ">About</a></li>
+                    <li><a href="#Crew">Crew</a></li>
+                    <li><a href="#Events">Events & Contact</a></li>
+                </ul>
             </div>
 
         </div>
@@ -49,16 +51,31 @@
     <div class="content">
 
         <div class="genericContainer">
-            <h2>About</h2>
+            <h2 id="About">About</h2>
+            <div class="dashes"></div>
             <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho
                 omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum
                 dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
+            <br />
+            <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho
+                omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum
+                dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
+            <br />
+            <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho
+                omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum
+                dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
+            <br />
+            <p>We are Redrum crew, we are cool. Tady by měla být about sekce, ale co tam dát ani nevim, už je to dlouho
+                omg, no tak sem dam klasiku lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum
+                dolorem sit amat. lorem ipsum dolorem sit amat. lorem ipsum dolorem sit amat.</p>
+            </p>
         </div>
 
 
         <div class="genericContainer">
 
-            <h2>Crew</h2>
+            <h2 id="Crew">Crew</h2>
+            <div class="dashes"></div>
 
             <div class="DJ">
                 <div class="DJinner">
@@ -135,7 +152,8 @@
 
 
         <div class="genericContainer">
-            <h2>Events & Contact</h2>
+            <h2 id="Events">Events & Contact</h2>
+            <div class="dashes"></div>
             <div class="eventInner">
                 <iframe
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=500&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
@@ -148,22 +166,23 @@
             <div class="contactInner">
                 <p>Contact:</p>
                 <p>Tady by byl Email, kdybysme nějakej měli</p>
-                
+
             </div>
         </div>
 
     </div>
 
 
-    <footer>
+    <footer class="footerStyle">
         <div class="genericContainer">
             <div class="socialStrip">
-                <a target="_blank" href="https://www.facebook.com/redrum.dnb"><img src="fb.svg"/></a>
+                <a target="_blank" href="https://www.facebook.com/redrum.dnb"><img src="fb.svg" /></a>
                 <a target="_blank" href="https://www.instagram.com/redrum_crew/"><img src="ig.svg" /></a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCT7P47mk4PO97jnn0TjsAuw"><img src="yt.svg" /></a>   
-                    
+                <a target="_blank" href="https://www.youtube.com/channel/UCT7P47mk4PO97jnn0TjsAuw"><img
+                        src="yt.svg" /></a>
+
             </div>
-            <div class="footsmall">
+            <div class="cc">
                 2021&copy; Redrum Crew
             </div>
         </div>
