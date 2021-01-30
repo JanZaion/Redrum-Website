@@ -237,6 +237,15 @@ p{
     display: block;
     float: left;    
 }
+#iframeBig{ 
+    display: block; 
+}
+#iframeMedium{ 
+    display: none; 
+}
+#iframeSmall{ 
+    display: none; 
+}
 .contactInner{
     margin: 5px;
     width:45%;
@@ -277,11 +286,11 @@ p{
 .DJ {width: 20%;}
 
 }
-@media screen and (min-width: 1145px) and (max-width: 1504px) {
+@media screen and (max-width: 1504px) {
 .DJ {width: 25%;}
 
 }
-@media screen and (min-width: 965px) and (max-width: 1144px) {
+@media screen and (max-width: 1144px) {
 .DJ {width: 33%;}
 .genericContainer{
     width:100%;
@@ -300,29 +309,24 @@ p{
     overflow: hidden;
     display: block;
     float: left;    
+}
+#iframeBig{ 
+    display: block; 
+}
+#iframeMedium{ 
+    display: none; 
+}
+#iframeSmall{ 
+    display: none; 
+}
+}
+@media screen and (max-width: 964px) {
+.DJ {width: 33%;}
+.genericContainer{
+    width:100%;
+    padding: 0px 25px 0px 25px;
 }
 
-}
-@media screen and (min-width: 745px) and (max-width: 964px) {
-.DJ {width: 33%;}
-.genericContainer{
-    width:100%;
-    padding: 0px 25px 0px 25px;
-}
-.eventInner{
-    margin: 5px;
-    width:100%;
-    overflow: hidden;
-    display: block;
-    float: left;    
-}
-.contactInner{
-    margin: 5px;
-    width:100%;
-    overflow: hidden;
-    display: block;
-    float: left;    
-}
 
 }
 
@@ -356,24 +360,29 @@ p{
     width:100%;
     padding: 0px 25px 0px 25px;
 }
-.eventInner{
-    margin: 5px;
-    width:100%;
-    overflow: hidden;
-    display: block;
-    float: left;    
 }
-.contactInner{
-    margin: 5px;
-    width:100%;
-    overflow: hidden;
-    display: block;
-    float: left;    
-}
+@media screen and (max-width: 575px) {
+    #iframeBig{ 
+        display: none; 
+    }
+    #iframeMedium{ 
+        display: block; 
+    }
+    #iframeSmall{ 
+        display: none; 
+    }
 }
 
-@media screen and (max-width: 350px) {
-    
+@media screen and (max-width: 390px) {
+    #iframeBig{ 
+        display: none; 
+    }
+    #iframeMedium{ 
+        display: none; 
+    }
+    #iframeSmall{ 
+        display: block; 
+    }
 }
     
 
