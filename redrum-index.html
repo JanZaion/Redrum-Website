@@ -23,7 +23,6 @@
         function vDis() {//This fn displays the showcase video if device is bigger than 1144px. If not than the video does not load, increasing loading speed
             var v = document.getElementById("mobile");
             var c = getComputedStyle(v)
-            console.log(c.display)
             if (c.display !== "none") {
                 var v = document.getElementById("bcgVid")
                 var s = document.createElement('source');
@@ -57,17 +56,16 @@
     </header>
 
     <div class="showcase">
-        <div class="showcase-top"></div>
 
         <div class="showcaseContent">
             <h1>Redrum Crew</h1>
             <p>serving drum & bass since 1999</p>
         </div>
-        <div>
+
             <video autoplay muted loop id="bcgVid">
                 <!--<source src="cmc.mp4" type="video/mp4" />-->
             </video>
-        </div>
+
 
 
     </div>

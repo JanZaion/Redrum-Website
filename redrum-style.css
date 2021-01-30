@@ -6,7 +6,7 @@
 body{
     font-family: sans-serif;
     background:  #131212 ;
-    color: #e2e2e2;
+    color: #e2e2e2;    
 }
 h1{
     font-size:70px;
@@ -116,16 +116,12 @@ p{
 	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 .showcase video {
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index:-1
-}
-#bcgVid {
-    display: inherit;
 }
 .showcaseContent {
     position: relative;
@@ -137,16 +133,16 @@ p{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	margin-top: 9rem;
 }
 .showcaseContent h1 {
 	font-weight: 700;
 	font-size: 5.2rem;
 	line-height: 1.1;
-    margin: 0 0 2rem;
+    padding: 10rem 0px 2rem 0px;
     z-index: 2;
     animation-name: heading;
     animation-duration: 2s;
+
 }
 
 @keyframes heading {
@@ -294,9 +290,6 @@ p{
 
 }
 @media screen and (max-width: 1144px) {
-#bcgVid{
-    display: none;
-}
 #mobile{ /* kind of a crude way to tell if the user views the web on mobile*/
     display: none;
 }
@@ -371,15 +364,18 @@ p{
 }
 }
 @media screen and (max-width: 575px) {
-    #iframeBig{ 
-        display: none; 
-    }
-    #iframeMedium{ 
-        display: block; 
-    }
-    #iframeSmall{ 
-        display: none; 
-    }
+#iframeBig{ 
+    display: none; 
+}
+#iframeMedium{ 
+    display: block; 
+}
+#iframeSmall{ 
+    display: none; 
+}
+.showcaseContent h1 {
+    padding: 2rem 0px 2rem 0px;
+}
 }
 
 @media screen and (max-width: 390px) {
@@ -391,6 +387,11 @@ p{
     }
     #iframeSmall{ 
         display: block; 
+    }
+}
+@media screen and (max-height: 600px) {
+    .showcaseContent h1 {
+        padding: 2rem 0px 2rem 0px;
     }
 }
     
