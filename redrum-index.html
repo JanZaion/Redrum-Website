@@ -7,23 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link rel="stylesheet" href="redrum-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function menuFN() {
+          var x = document.getElementById("nav");
+          if (x.className === "navRight") {
+            x.className += " responsive";
+          } else {
+            x.className = "navRight";
+          }
+        }
+    </script>
 
 </head>
 
 <body>
-    <header class="navBar" id="Home"> 
+    <header class="navBar"> 
         <div class="navContainer">
             <div class="navLeft">
-                <a href="#Home" class="nav-item "><img src="redrumlogo2.png"></a>
+                <a href="#Home" ><img src="redrumlogo2.png"></a>
 
             </div>
-            <div class="navRight">
-                <ul>
-                    <li><a href="#Home" class="nav-item ">Home</a></li>
-                    <li><a href="#About" class="nav-item ">About</a></li>
-                    <li><a href="#Crew">Crew</a></li>
-                    <li><a href="#Events">Events & Contact</a></li>
-                </ul>
+            <div class="navRight" id="nav">       
+                    <a href="#Home" >Home</a>
+                    <a href="#About" >About</a>
+                    <a href="#Crew">Crew</a>
+                    <a href="#Events">Events & Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="menuFN()"><i class="fa fa-bars"></i></a>
+                          
             </div>
 
         </div>
