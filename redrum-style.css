@@ -201,6 +201,9 @@ p{
     overflow: hidden;
     display: block; 
 }
+.DJinner:hover {
+    background-color: rgb(161, 133, 133);
+}
 
 /*DJ pages start here*/
 .DJcontainer{
