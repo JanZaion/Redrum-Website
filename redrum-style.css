@@ -273,21 +273,56 @@ p{
 
 
 /*instructions for responsive design*/
-@media (min-width: 1505px) {
+@media screen and (min-width: 1505px) {
 .DJ {width: 20%;}
 
 }
-@media (min-width: 1145px) and (max-width: 1504px) {
+@media screen and (min-width: 1145px) and (max-width: 1504px) {
 .DJ {width: 25%;}
 
 }
-@media (min-width: 965px) and (max-width: 1144px) {
+@media screen and (min-width: 965px) and (max-width: 1144px) {
 .DJ {width: 33%;}
-
+.genericContainer{
+    width:100%;
+    padding: 0px 25px 0px 25px;
+}
+.eventInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
+.contactInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
 
 }
-@media (min-width: 745px) and (max-width: 964px) {
+@media screen and (min-width: 745px) and (max-width: 964px) {
 .DJ {width: 33%;}
+.genericContainer{
+    width:100%;
+    padding: 0px 25px 0px 25px;
+}
+.eventInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
+.contactInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
 
 }
 
@@ -313,11 +348,30 @@ p{
     text-align: left;
   }
 
-
 .navLeft img{
     display: none;
 }
+
+.genericContainer{
+    width:100%;
+    padding: 0px 25px 0px 25px;
 }
+.eventInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
+.contactInner{
+    margin: 5px;
+    width:100%;
+    overflow: hidden;
+    display: block;
+    float: left;    
+}
+}
+
     
 
 
