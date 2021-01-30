@@ -10,32 +10,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script>
-        function menuFN() {
-          var x = document.getElementById("nav");
-          if (x.className === "navRight") {
-            x.className += " responsive";
-          } else {
-            x.className = "navRight";
-          }
+        function menuFN() { //This fn is here for the mobile menu
+            var m = document.getElementById("nav");
+            if (m.className === "navRight") {
+                m.className += " responsive";
+            } else {
+                m.className = "navRight";
+            }
+        }
+    </script>
+    <script>
+        function vDis() {//This fn displays the showcase video if device is bigger than 1144px. If not than the video does not load, increasing loading speed
+            var v = document.getElementById("mobile");
+            var c = getComputedStyle(v)
+            console.log(c.display)
+            if (c.display !== "none") {
+                var v = document.getElementById("bcgVid")
+                var s = document.createElement('source');
+                s.setAttribute('src', 'cmc.mp4');
+                v.appendChild(s);
+
+            }
         }
     </script>
 
 </head>
 
-<body>
-    <header class="navBar"> 
+<body onload="vDis()"> <!--vDis guides here for the video-->
+    <div id="mobile"></div>
+    <header class="navBar">
         <div class="navContainer">
             <div class="navLeft">
-                <a href="#Home" ><img src="redrumlogo2.png"></a>
+                <a href="#Home"><img src="redrumlogo2.png"></a>
 
             </div>
-            <div class="navRight" id="nav">       
-                    <a href="#Home" >Home</a>
-                    <a href="#About" >About</a>
-                    <a href="#Crew">Crew</a>
-                    <a href="#Events">Events & Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="menuFN()"><i class="fa fa-bars"></i></a>
-                          
+            <div class="navRight" id="nav">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Crew">Crew</a>
+                <a href="#Events">Events & Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="menuFN()"><i class="fa fa-bars"></i></a>
+
             </div>
 
         </div>
@@ -48,10 +63,11 @@
             <h1>Redrum Crew</h1>
             <p>serving drum & bass since 1999</p>
         </div>
-
-        <video autoplay muted loop>
-            <source src="cmc.mp4" type="video/mp4" />
-        </video>
+        <div>
+            <video autoplay muted loop id="bcgVid">
+                <!--<source src="cmc.mp4" type="video/mp4" />-->
+            </video>
+        </div>
 
 
     </div>
@@ -86,8 +102,7 @@
 
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -96,8 +111,7 @@
 
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -106,8 +120,7 @@
 
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -115,8 +128,7 @@
             </div>
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -124,8 +136,7 @@
             </div>
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -133,8 +144,7 @@
             </div>
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -142,8 +152,7 @@
             </div>
             <div class="DJ">
                 <div class="DJinner">
-                    <a href="../Redrum-Website/CrashMan.html"><img
-                            src="crash.jpg" /></a>
+                    <a href="../Redrum-Website/CrashMan.html"><img src="crash.jpg" /></a>
                     <a href="../Redrum-Website/CrashMan.html">
                         <h3>CrashMan</h3>
                     </a>
@@ -155,22 +164,19 @@
             <h2 id="Events">Events & Contact</h2>
             <div class="dashes"></div>
             <div class="eventInner">
-                <iframe
-                    id="iframeBig"    
-                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
-                    width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                <iframe id="iframeBig"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=500&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
+                    width="500" height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                 </iframe>
-                <iframe
-                    id="iframeMedium"    
+                <iframe id="iframeMedium"
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=350&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
                     width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                 </iframe>
-                <iframe
-                    id="iframeSmall"    
+                <iframe id="iframeSmall"
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fredrum.dnb&tabs=events%2C%20timeline%2C%20messages&width=260&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=80014711878"
                     width="260" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"

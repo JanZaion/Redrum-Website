@@ -124,6 +124,9 @@ p{
     transform: translateX(-50%) translateY(-50%);
     z-index:-1
 }
+#bcgVid {
+    display: inherit;
+}
 .showcaseContent {
     position: relative;
 	z-index: 2;
@@ -291,6 +294,12 @@ p{
 
 }
 @media screen and (max-width: 1144px) {
+#bcgVid{
+    display: none;
+}
+#mobile{ /* kind of a crude way to tell if the user views the web on mobile*/
+    display: none;
+}
 .DJ {width: 33%;}
 .genericContainer{
     width:100%;
