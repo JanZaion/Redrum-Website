@@ -10,10 +10,14 @@ body{
 }
 h1{
     font-size:70px;
+    font-family: 'Babas Neune', sans-serif;
+    text-transform: uppercase;
 }
 h2{
     margin: 60px 0px 10px 5px;
     font-size:40px;
+    font-family: 'Babas Neune', sans-serif;
+    text-transform: uppercase;
 }
 p{
     margin: 0 0 0 5px;
@@ -380,6 +384,8 @@ p{
 @media screen and (max-width: 390px) {
 #iframeBig{ 
     display: none; 
+    color: #660e0ec7;
+    color:black;
 }
 #iframeMedium{ 
     display: none; 
