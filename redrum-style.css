@@ -40,9 +40,10 @@ p{
 }
 .dashes{
     width: 95%;
-    border-bottom-style: dashed;
-    border-width: 2px;
-    margin: 5px 15px 15px 5px ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin: 5px 15px 15px 5px;
 }
 
   /*Header starts here*/
