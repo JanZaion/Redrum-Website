@@ -22,6 +22,7 @@ h2{
 p{
     margin: 0 0 0 5px;
     font-size:16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*generic body classes*/
@@ -188,7 +189,7 @@ p{
     margin: 0;
 }
 .DJinner{
-    background: #4e4e4e;
+    background: #eb5656;
     margin: 5px;
     overflow: hidden;
     display: block; 
