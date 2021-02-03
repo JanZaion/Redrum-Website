@@ -272,6 +272,7 @@ p{
 
 
 /*instructions for responsive design*/
+/*
 @media screen and (min-width: 1505px) {
 .DJ {width: 20%;}
 
@@ -279,7 +280,8 @@ p{
 @media screen and (max-width: 1504px) {
 .DJ {width: 25%;}
 
-}
+
+}*/
 @media screen and (max-width: 1144px) {
 #mobile{ /* kind of a crude way to tell if the user views the web on mobile*/
     display: none;
