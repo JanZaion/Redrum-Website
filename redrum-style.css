@@ -210,10 +210,7 @@ p{
     overflow: hidden;
     display: block;
 }
-DJshowcase{
-    
 
-}
 .DJshowcaseRight{
     width: 50%;
     float: right;
@@ -378,10 +375,6 @@ DJshowcase{
     display: none;
 }
 
-.genericContainer{
-    width:100%;
-    padding: 0px 25px 0px 25px;
-}
 }
 @media screen and (max-width: 575px) {
 #iframeBig{ 
