@@ -5,19 +5,22 @@
 }
 body{
     font-family: sans-serif;
-    background:  #131212 ;
+    background:  #161616;
     color: #e2e2e2;    
 }
 h1{
     font-size:70px;
-    font-family: 'Babas Neune', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 h2{
     margin: 60px 0px 10px 5px;
-    font-size:40px;
-    font-family: 'Babas Neune', sans-serif;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 p{
     margin: 0 0 0 5px;
@@ -30,7 +33,7 @@ p{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    background:  #3f3f3f    
+    background:  #161616    
 }
 .genericContainer{
     width: 1120px;
@@ -133,7 +136,8 @@ p{
 	text-align: center;
 }
 .showcaseContent h1 {
-	font-weight: 700;
+    font-weight: 700;
+    font-family: 'Babas Neune', sans-serif;
 	font-size: 5.2rem;
 	line-height: 1.1;
     padding: 10rem 0px 2rem 0px;
@@ -251,8 +255,9 @@ p{
     color: gray;
 }
 .footerStyle{
+    padding: 20px;
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto 0px 0px;
     position: relative;
     background:  #4e4e4e    
 }
@@ -279,9 +284,9 @@ p{
 }
 @media screen and (max-width: 1504px) {
 .DJ {width: 25%;}
+*/
 
-
-}*/
+ 
 @media screen and (max-width: 1144px) {
 #mobile{ /* kind of a crude way to tell if the user views the web on mobile*/
     display: none;
