@@ -203,22 +203,32 @@ p{
 }
 
 /*DJ pages start here*/
-.DJh1 {
-    margin: 40px 0px 10px 5px;
-}
 .DJpic{
     width: 50%;
-    float: right;
+    float: left;
     margin: 0px 0px 20px 0px;
     overflow: hidden;
     display: block;
 }
-.DJbio{
-    width: 40%;
+DJshowcase{
+    
+
+}
+.DJshowcaseRight{
+    width: 50%;
+    float: right;
+    padding: 15rem 5rem 0;
+    
+}
+.DJhype{
     overflow: hidden;
     display: inline-block;
 }
-.DJbio img{ /*This is for the social icons, not for the actual img of the dj */
+.DJhype p{
+    margin: 1rem 0 1rem;
+    font-size:22px;
+}
+.DJhype img{ /*This is for the social icons, not for the actual img of the dj */
     width: 50px;
     margin: 30px 2px 0px 5px;
 }
@@ -322,10 +332,11 @@ p{
 .DJpic{
     width: 100%;
     float: left;
-    margin: 30px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
-.DJbio{
-    width:100%
+.DJshowcaseRight{
+    width:100%;
+    padding: 0px 25px 0px 25px;
 }
 }
 @media screen and (max-width: 964px) {
