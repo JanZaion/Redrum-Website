@@ -90,7 +90,7 @@ p{
     text-decoration: none;
 }
 .navRight a:hover {
-      background-color: rgb(161, 133, 133);
+    background-color: rgb(243, 128, 141);
 }
   
 
@@ -193,13 +193,13 @@ p{
     margin: 0;
 }
 .DJinner{
-    background: #eb5656;
+    background: rgb(227, 0, 27);
     margin: 5px;
     overflow: hidden;
     display: block; 
 }
 .DJinner:hover {
-    background-color: rgb(161, 133, 133);
+    background-color: rgb(243, 128, 141);
 }
 
 /*DJ pages start here*/
@@ -210,7 +210,6 @@ p{
     overflow: hidden;
     display: block;
 }
-
 .DJshowcaseRight{
     width: 50%;
     float: right;
@@ -228,6 +227,9 @@ p{
 .DJhype img{ /*This is for the social icons, not for the actual img of the dj */
     width: 50px;
     margin: 30px 2px 0px 5px;
+}
+.DJplaylist{
+    Margin: 20px 0 20px;
 }
 
 /*Events & Contact starts here*/
