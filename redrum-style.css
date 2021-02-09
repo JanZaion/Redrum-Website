@@ -223,14 +223,13 @@ p{
 .DJhype img{ /*This is for the social icons, not for the actual img of the dj */
     width: 50px;
     margin: 30px 2px 0px 5px;
+    filter: invert(14%) sepia(80%) saturate(4685%) hue-rotate(345deg) brightness(88%) contrast(114%);
+    
 }
-#DJfb:hover{
-    background:url("ig.svg");
-    width: 50px;
-    margin: 30px 2px 0px 5px;
+.DJhype img:hover{
+    filter: invert(61%) sepia(77%) saturate(705%) hue-rotate(306deg) brightness(103%) contrast(91%);
 }
-#DJsc:hover{
-    background:url("ig.svg");
+.DJhype img:hover{ 
     width: 50px;
     margin: 30px 2px 0px 5px;
 }
@@ -287,6 +286,9 @@ p{
 .socialStrip img{
     width: 30px;
     margin: 0px 2px 0px 2px;
+}
+.socialStrip img:hover{
+    filter: contrast(70%);
 }
 
 
