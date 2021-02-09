@@ -224,6 +224,16 @@ p{
     width: 50px;
     margin: 30px 2px 0px 5px;
 }
+#DJfb:hover{
+    background:url("ig.svg");
+    width: 50px;
+    margin: 30px 2px 0px 5px;
+}
+#DJsc:hover{
+    background:url("ig.svg");
+    width: 50px;
+    margin: 30px 2px 0px 5px;
+}
 .DJplaylist{
     Margin: 20px 0 20px;
 }
