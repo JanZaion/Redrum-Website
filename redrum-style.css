@@ -42,6 +42,9 @@ p{
     height:auto;
     overflow:auto;  
 }
+.genericContainer a:link {
+    color: red;
+}
 .dashes{
     width: 95%;
     border-style: solid;
