@@ -1,72 +1,71 @@
 <head>
-    <meta charset="utf-8">
-    <title>Sinner</title>
-    <meta name="description" content="Drum and Bass DJ from Redrum Crew">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="utf-8" />
+  <title>Sinner</title>
+  <meta name="description" content="Drum and Bass DJ from Redrum Crew" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-    <link rel="stylesheet" href="redrum-style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="redrum-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet" />
 
-    <script src="redrum-movement.js"></script>
+  <script src="redrum-movement.js"></script>
 </head>
 
 <body>
-    <header class="navBar">
+  <header class="navBar">
+    <div class="navLeft">
+      <a href="../Redrum-Website/index.html"><img src="redrum_logo.png" /></a>
+    </div>
+    <div class="navRight" id="nav">
+      <a href="../Redrum-Website/index.html#Home">Home</a>
+      <a href="../Redrum-Website/index.html#About">About</a>
+      <a href="../Redrum-Website/index.html#Crew">Crew</a>
+      <a href="../Redrum-Website/index.html#Events">Events & Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="menuFN()"><i class="fa fa-bars"></i></a>
+    </div>
+  </header>
+  <div class="content">
+    <img class="DJpic" src="sinner.jpg" />
 
-        <div class="navLeft">
-            <a href="../Redrum-Website/index.html"><img src="redrum_logo.png"></a>
+    <div class="DJshowcaseRight">
+      <h1 class="DJh1">Sinner</h1>
+      <div class="DJhype">
+        <p>DJ, promotér</p>
+        <p>Žánry: Drum and Bass</p>
+        <p>
+          <a target="_blank" href="https://www.facebook.com/sinnerdnb"
+            ><img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNTUuMDIyLDUxMS45OThsMC4yMjksMC4wMDFsLTAuMDc5LDBsLTAuMTUsLTAuMDAxWm0xLjgwNiwwLjAwMWwtMC4wNzksMGwwLjIyOSwtMC4wMDFsLTAuMTUsMC4wMDFabS0yLjU4OCwtMC4wMDVsMC4yNDcsMC4wMDFsLTAuMTQyLDBsLTAuMTA1LC0wLjAwMVptMy40MTUsMC4wMDFsLTAuMTQyLDBsMC4yNDcsLTAuMDAxbC0wLjEwNSwwLjAwMVptLTQuMTY5LC0wLjAwN2wwLjE2NSwwLjAwMWwtMC4xMzIsLTAuMDAxbC0wLjAzMywwWm00Ljk5NSwwbC0wLjEzMiwwLjAwMWwwLjE2NSwtMC4wMDFsLTAuMDMzLDBabTAuODI2LC0wLjAwOWwtMC4wNTgsMC4wMDFsMC4yMjMsLTAuMDAzbC0wLjE2NSwwLjAwMlptLTYuNzc5LC0wLjAwMmwwLjIyMywwLjAwM2wtMC4wNTgsLTAuMDAxbC0wLjE2NSwtMC4wMDJabTcuNjA0LC0wLjAxbC0wLjEzNSwwLjAwMmwwLjI3NSwtMC4wMDRsLTAuMTQsMC4wMDJabS04LjQwNCwtMC4wMDJsMC4yNzUsMC4wMDRsLTAuMTM1LC0wLjAwMmwtMC4xNCwtMC4wMDJabTkuMjI4LC0wLjAxMmwtMC4xODIsMC4wMDNsMC4yNTQsLTAuMDA1bC0wLjA3MiwwLjAwMlptLTkuOTg0LC0wLjAwMmwwLjI1NCwwLjAwNWwtMC4xODIsLTAuMDAzbC0wLjA3MiwtMC4wMDJabS0wLjkzNywtMC4wMTlsMC4yMjUsMC4wMDVsLTAuMDQsLTAuMDAxbC0wLjE4NSwtMC4wMDRabTExLjc0NSwwLjAwNGwtMC4wNCwwLjAwMWwwLjIyNSwtMC4wMDVsLTAuMTg1LDAuMDA0Wm0tMTIuNTY3LC0wLjAyNWwwLjMwOSwwLjAwOGwtMC4xMjUsLTAuMDAzbC0wLjE4NCwtMC4wMDVabTEzLjM5LDAuMDA1bC0wLjEyNSwwLjAwM2wwLjMwOSwtMC4wMDhsLTAuMTg0LDAuMDA1Wm0wLjgyMywtMC4wMjJsLTAuMjAxLDAuMDA2bDAuMzE2LC0wLjAwOWwtMC4xMTUsMC4wMDNabS0xNC45NjcsLTAuMDAzbDAuMzE2LDAuMDA5bC0wLjIwMSwtMC4wMDZsLTAuMTE1LC0wLjAwM1ptLTAuNzIsLTAuMDIybDAuMjI1LDAuMDA3bC0wLjIxMiwtMC4wMDdsLTAuMTk0LC0wLjAwNmwwLjE4MSwwLjAwNlptMTYuNTA5LDBsLTAuMjEyLDAuMDA3bDAuMjI1LC0wLjAwN2wwLjE4MSwtMC4wMDZsLTAuMTk0LDAuMDA2Wm0wLjgyMSwtMC4wMjdsLTAuMTEyLDAuMDA0bDAuMzQ1LC0wLjAxMmwtMC4yMzMsMC4wMDhabS0xOC4zNzEsLTAuMDA4bDAuMzQ1LDAuMDEybC0wLjExMiwtMC4wMDRsLTAuMjMzLC0wLjAwOFptLTAuNzQ5LC0wLjAyOGwwLjM2MiwwLjAxM2wtMC4yMDEsLTAuMDA3bC0wLjE2MSwtMC4wMDZabTE5Ljk0MSwwLjAwNmwtMC4yMDEsMC4wMDdsMC4zNjIsLTAuMDEzbC0wLjE2MSwwLjAwNlptLTIwLjY3NiwtMC4wMzZsMC4zNTQsMC4wMTVsLTAuMjc3LC0wLjAxMWwtMC4wNzcsLTAuMDA0Wm0yMS40OTUsMC4wMDRsLTAuMjc3LDAuMDExbDAuMzU0LC0wLjAxNWwtMC4wNzcsMC4wMDRabS0yMi41MjUsLTAuMDQ5bDAuMzgsMC4wMTdsLTAuMDkzLC0wLjAwM2wtMC4yODcsLTAuMDE0Wm0yMy4zNDUsMC4wMTRsLTAuMDkzLDAuMDAzbDAuMzgsLTAuMDE3bC0wLjI4NywwLjAxNFptLTI0LjA4NCwtMC4wNDhsMC4zOTQsMC4wMThsLTAuMTg2LC0wLjAwOGwtMC4yMDgsLTAuMDFabTI0LjkwMiwwLjAxbC0wLjE4NiwwLjAwOGwwLjM5NCwtMC4wMThsLTAuMjA4LDAuMDFabS0yNS42MywtMC4wNDdsMC4zOTcsMC4wMmwtMC4yNzksLTAuMDEzbC0wLjExOCwtMC4wMDdabTI2LjQ0OCwwLjAwN2wtMC4yNzksMC4wMTNsMC4zOTcsLTAuMDJsLTAuMTE4LDAuMDA3Wm0wLjgxOCwtMC4wNDNsLTAuMzYyLDAuMDE5bDAuMzIxLC0wLjAxN2wwLjM3OCwtMC4wMjFsLTAuMzM3LDAuMDE5Wm0tMjcuOTI1LDAuMDAybDAuMzIxLDAuMDE3bC0wLjM2MiwtMC4wMTlsLTAuMzM3LC0wLjAxOWwwLjM3OCwwLjAyMVptMjguNzQxLC0wLjA0OGwtMC4xNiwwLjAwOWwwLjQwNiwtMC4wMjNsLTAuMjQ2LDAuMDE0Wm0tMjkuODQ0LC0wLjAxNGwwLjQwNiwwLjAyM2wtMC4xNiwtMC4wMDlsLTAuMjQ2LC0wLjAxNFptLTAuNzIyLC0wLjA0M2wwLjQwNSwwLjAyNGwtMC4yNTMsLTAuMDE0bC0wLjE1MiwtMC4wMVptMzEuMzgyLDAuMDFsLTAuMjUzLDAuMDE0bDAuNDA1LC0wLjAyNGwtMC4xNTIsMC4wMVptLTMyLjA3MSwtMC4wNTNsMC4zNjUsMC4wMjNsLTAuMzQsLTAuMDIxbC0wLjM0MiwtMC4wMjJsMC4zMTcsMC4wMlptMzIuODg3LDAuMDAybC0wLjM0LDAuMDIxbDAuMzY1LC0wLjAyM2wwLjMxNywtMC4wMmwtMC4zNDIsMC4wMjJabTAuODE0LC0wLjA1M2wtMC4xMjIsMC4wMDhsMC4zODcsLTAuMDI2bC0wLjI2NSwwLjAxOFptLTM0Ljc1NSwtMC4wMThsMC4zODcsMC4wMjZsLTAuMTIyLC0wLjAwOGwtMC4yNjUsLTAuMDE4Wm0tMC43MjEsLTAuMDVsMC4zOCwwLjAyN2wtMC4yMDgsLTAuMDE0bC0wLjE3MiwtMC4wMTNabTM2LjI5LDAuMDEzbC0wLjIwOCwwLjAxNGwwLjM4LC0wLjAyN2wtMC4xNzIsMC4wMTNabS0zNy4wMDksLTAuMDY0bDAuMzQ5LDAuMDI1bC0wLjI3MSwtMC4wMTlsLTAuMDc4LC0wLjAwNlptMzcuODIyLDAuMDA2bC0wLjI3MSwwLjAxOWwwLjM0OSwtMC4wMjVsLTAuMDc4LDAuMDA2Wm0tMzguNzg5LC0wLjA3OWwwLjMwNiwwLjAyM2wtMC4wNzQsLTAuMDA1bC0wLjIzMiwtMC4wMThabTM5LjYwMiwwLjAxOGwtMC4wNzQsMC4wMDVsMC4zMDYsLTAuMDIzbC0wLjIzMiwwLjAxOFptMC44MTEsLTAuMDYzbC0wLjE0NiwwLjAxMWwwLjMxMSwtMC4wMjVsLTAuMTY1LDAuMDE0Wm0tNDEuMTU3LC0wLjAxNGwwLjMxMSwwLjAyNWwtMC4xNDYsLTAuMDExbC0wLjE2NSwtMC4wMTRabS0wLjcyNSwtMC4wNTlsMC4yNjQsMC4wMjJsLTAuMTg2LC0wLjAxNWwtMC4wNzgsLTAuMDA3Wm00Mi42OTQsMC4wMDdsLTAuMTg2LDAuMDE1bDAuMjY0LC0wLjAyMmwtMC4wNzgsMC4wMDdabS00My40OTIsLTAuMDc0bDAuMDc5LDAuMDA3bC0wLjAxMywtMC4wMDFsLTAuMDY2LC0wLjAwNlptNDQuMzAyLDAuMDA2bC0wLjAxMywwLjAwMWwwLjA3OSwtMC4wMDdsLTAuMDY2LDAuMDA2Wm0wLjgxLC0wLjA3MWwtMC4wNzIsMC4wMDZsMC4xODEsLTAuMDE2bC0wLjEwOSwwLjAxWm0tNDUuOTY1LC0wLjAxbDAuMTgxLDAuMDE2bC0wLjA3MiwtMC4wMDZsLTAuMTA5LC0wLjAxWm0tMC43NSwtMC4wNjhsMC4xMzUsMC4wMTNsLTAuMDg0LC0wLjAwOGwtMC4wNTEsLTAuMDA1Wm00Ny41MjMsMC4wMDVsLTAuMDg0LDAuMDA4bDAuMTM1LC0wLjAxM2wtMC4wNTEsMC4wMDVabS02My43MzYsLTIuMDI1Yy0xMjIuMzE5LC0xOS4yMjYgLTIxNiwtMTI1LjIwMyAtMjE2LC0yNTIuODg3YzAsLTE0MS4yOSAxMTQuNzEsLTI1NiAyNTYsLTI1NmMxNDEuMjksMCAyNTYsMTE0LjcxIDI1NiwyNTZjMCwxMjcuNjg0IC05My42ODEsMjMzLjY2MSAtMjE2LDI1Mi44ODdsMCwtMTc4Ljg4N2w1OS42NSwwbDExLjM1LC03NGwtNzEsMGwwLC00OC4wMjFjMCwtMjAuMjQ1IDkuOTE4LC0zOS45NzkgNDEuNzE5LC0zOS45NzlsMzIuMjgxLDBsMCwtNjNjMCwwIC0yOS4yOTYsLTUgLTU3LjMwNSwtNWMtNTguNDc2LDAgLTk2LjY5NSwzNS40NCAtOTYuNjk1LDk5LjZsMCw1Ni40bC02NSwwbDAsNzRsNjUsMGwwLDE3OC44ODdaIi8+PC9zdmc+"
+          /></a>
+          <a target="_blank" href="https://soundcloud.com/sinner62100"
+            ><img
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDk2IDk2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAyIiBpZD0iTGF5ZXJfMiI+PGcgZGF0YS1uYW1lPSJMYXllciAyIiBpZD0iTGF5ZXJfMi0yIj48cGF0aCBkPSJNNDgsMEE0OCw0OCwwLDEsMCw5Niw0OCw0OCw0OCwwLDAsMCw0OCwwWk0yMS40OCw1OWEyLjA3LDIuMDcsMCwxLDEtNC4xNCwwVjU0Ljg0YTIuMDcsMi4wNywwLDEsMSw0LjE0LDBabTguMzksMGEyLjEzLDIuMTMsMCwwLDEtMi4xNCwyLjA4QTIuMDgsMi4wOCwwLDAsMSwyNS42OCw1OVY1MC42NWEyLjA4LDIuMDgsMCwwLDEsMi4wNi0yLjA5LDIuMTMsMi4xMywwLDAsMSwyLjE0LDIuMDlabTguMzMsMEEyLjEsMi4xLDAsMCwxLDM0LDU5VjQ2LjQ4YTIuMSwyLjEsMCwxLDEsNC4xOSwwWm04LjM0LS41NWEyLjM5LDIuMzksMCwwLDEtMi4wOCwyLjYzLDIuMzksMi4zOSwwLDAsMS0yLjA4LTIuNjNWNDIuOGEyLjM3LDIuMzcsMCwwLDEsMi4wOC0yLjU4LDIuMzcsMi4zNywwLDAsMSwyLjA4LDIuNThabTI0LDIuNjNINTAuNzRWMzUuMzJhMTQuODUsMTQuODUsMCwwLDEsMy4xMy0uMywxNC41OCwxNC41OCwwLDAsMSwxNC4zMSwxMS45LDYsNiwwLDAsMSwyLjM2LS40NCw3LjMxLDcuMzEsMCwxLDEsMCwxNC42MVoiLz48L2c+PC9nPjwvc3ZnPg=="
+          /></a>
+        </p>
+      </div>
+    </div>
 
-        </div>
-        <div class="navRight" id="nav">
-            <a href="../Redrum-Website/index.html#Home">Home</a>
-            <a href="../Redrum-Website/index.html#About">About</a>
-            <a href="../Redrum-Website/index.html#Crew">Crew</a>
-            <a href="../Redrum-Website/index.html#Events">Events & Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="menuFN()"><i class="fa fa-bars"></i></a>
+    <div class="genericContainer">
+      <h2>Bio</h2>
 
-        </div>
+      <p>
+        Sinner je brněnský rodák, který se věnuje mixování od roku 2007, než se ale dostal k 170 bpm, hrál především
+        hiphop a skilloval scratche a beatjuggling. Stejně tak postupně dozrál od tvrdších poloh DnB až k dnešní selekci
+        deepu okořeněného o halftime a liquid, který od něj uslyšíte posledních pár let. Po pár sólo promotérských
+        pokusech a vetších hraních si ho v roce 2016 všimla brněnská crew Redrum, která ho přijala do svých řad a
+        umožnila mu se tak podílet na utváření lokální scény a rožšiřování jeho promotérských dovedností.
+      </p>
+      <br />
+      <p>Mixy k poslechu:</p>
+      <br />
+      <p>
+        <a href="https://soundcloud.com/sinner62100/sets/sinner-selects-2020" target="_blank">Sinner Selects 2020</a>
+      </p>
+    </div>
 
-
-    </header>
-    <div class="content">
-
-        <img class="DJpic" src="sinner.jpg" />
-
-        <div class="DJshowcaseRight">
-            <h1 class="DJh1">Sinner</h1>
-            <div class="DJhype">
-                <p>DJ, promotér</p>
-                <p>Žánry: Drum and Bass</p>
-                <p>
-                    <a target="_blank" href="https://www.facebook.com/sinnerdnb"><img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjEwMCUiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2VyaWY9Imh0dHA6Ly93d3cuc2VyaWYuY29tLyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNTUuMDIyLDUxMS45OThsMC4yMjksMC4wMDFsLTAuMDc5LDBsLTAuMTUsLTAuMDAxWm0xLjgwNiwwLjAwMWwtMC4wNzksMGwwLjIyOSwtMC4wMDFsLTAuMTUsMC4wMDFabS0yLjU4OCwtMC4wMDVsMC4yNDcsMC4wMDFsLTAuMTQyLDBsLTAuMTA1LC0wLjAwMVptMy40MTUsMC4wMDFsLTAuMTQyLDBsMC4yNDcsLTAuMDAxbC0wLjEwNSwwLjAwMVptLTQuMTY5LC0wLjAwN2wwLjE2NSwwLjAwMWwtMC4xMzIsLTAuMDAxbC0wLjAzMywwWm00Ljk5NSwwbC0wLjEzMiwwLjAwMWwwLjE2NSwtMC4wMDFsLTAuMDMzLDBabTAuODI2LC0wLjAwOWwtMC4wNTgsMC4wMDFsMC4yMjMsLTAuMDAzbC0wLjE2NSwwLjAwMlptLTYuNzc5LC0wLjAwMmwwLjIyMywwLjAwM2wtMC4wNTgsLTAuMDAxbC0wLjE2NSwtMC4wMDJabTcuNjA0LC0wLjAxbC0wLjEzNSwwLjAwMmwwLjI3NSwtMC4wMDRsLTAuMTQsMC4wMDJabS04LjQwNCwtMC4wMDJsMC4yNzUsMC4wMDRsLTAuMTM1LC0wLjAwMmwtMC4xNCwtMC4wMDJabTkuMjI4LC0wLjAxMmwtMC4xODIsMC4wMDNsMC4yNTQsLTAuMDA1bC0wLjA3MiwwLjAwMlptLTkuOTg0LC0wLjAwMmwwLjI1NCwwLjAwNWwtMC4xODIsLTAuMDAzbC0wLjA3MiwtMC4wMDJabS0wLjkzNywtMC4wMTlsMC4yMjUsMC4wMDVsLTAuMDQsLTAuMDAxbC0wLjE4NSwtMC4wMDRabTExLjc0NSwwLjAwNGwtMC4wNCwwLjAwMWwwLjIyNSwtMC4wMDVsLTAuMTg1LDAuMDA0Wm0tMTIuNTY3LC0wLjAyNWwwLjMwOSwwLjAwOGwtMC4xMjUsLTAuMDAzbC0wLjE4NCwtMC4wMDVabTEzLjM5LDAuMDA1bC0wLjEyNSwwLjAwM2wwLjMwOSwtMC4wMDhsLTAuMTg0LDAuMDA1Wm0wLjgyMywtMC4wMjJsLTAuMjAxLDAuMDA2bDAuMzE2LC0wLjAwOWwtMC4xMTUsMC4wMDNabS0xNC45NjcsLTAuMDAzbDAuMzE2LDAuMDA5bC0wLjIwMSwtMC4wMDZsLTAuMTE1LC0wLjAwM1ptLTAuNzIsLTAuMDIybDAuMjI1LDAuMDA3bC0wLjIxMiwtMC4wMDdsLTAuMTk0LC0wLjAwNmwwLjE4MSwwLjAwNlptMTYuNTA5LDBsLTAuMjEyLDAuMDA3bDAuMjI1LC0wLjAwN2wwLjE4MSwtMC4wMDZsLTAuMTk0LDAuMDA2Wm0wLjgyMSwtMC4wMjdsLTAuMTEyLDAuMDA0bDAuMzQ1LC0wLjAxMmwtMC4yMzMsMC4wMDhabS0xOC4zNzEsLTAuMDA4bDAuMzQ1LDAuMDEybC0wLjExMiwtMC4wMDRsLTAuMjMzLC0wLjAwOFptLTAuNzQ5LC0wLjAyOGwwLjM2MiwwLjAxM2wtMC4yMDEsLTAuMDA3bC0wLjE2MSwtMC4wMDZabTE5Ljk0MSwwLjAwNmwtMC4yMDEsMC4wMDdsMC4zNjIsLTAuMDEzbC0wLjE2MSwwLjAwNlptLTIwLjY3NiwtMC4wMzZsMC4zNTQsMC4wMTVsLTAuMjc3LC0wLjAxMWwtMC4wNzcsLTAuMDA0Wm0yMS40OTUsMC4wMDRsLTAuMjc3LDAuMDExbDAuMzU0LC0wLjAxNWwtMC4wNzcsMC4wMDRabS0yMi41MjUsLTAuMDQ5bDAuMzgsMC4wMTdsLTAuMDkzLC0wLjAwM2wtMC4yODcsLTAuMDE0Wm0yMy4zNDUsMC4wMTRsLTAuMDkzLDAuMDAzbDAuMzgsLTAuMDE3bC0wLjI4NywwLjAxNFptLTI0LjA4NCwtMC4wNDhsMC4zOTQsMC4wMThsLTAuMTg2LC0wLjAwOGwtMC4yMDgsLTAuMDFabTI0LjkwMiwwLjAxbC0wLjE4NiwwLjAwOGwwLjM5NCwtMC4wMThsLTAuMjA4LDAuMDFabS0yNS42MywtMC4wNDdsMC4zOTcsMC4wMmwtMC4yNzksLTAuMDEzbC0wLjExOCwtMC4wMDdabTI2LjQ0OCwwLjAwN2wtMC4yNzksMC4wMTNsMC4zOTcsLTAuMDJsLTAuMTE4LDAuMDA3Wm0wLjgxOCwtMC4wNDNsLTAuMzYyLDAuMDE5bDAuMzIxLC0wLjAxN2wwLjM3OCwtMC4wMjFsLTAuMzM3LDAuMDE5Wm0tMjcuOTI1LDAuMDAybDAuMzIxLDAuMDE3bC0wLjM2MiwtMC4wMTlsLTAuMzM3LC0wLjAxOWwwLjM3OCwwLjAyMVptMjguNzQxLC0wLjA0OGwtMC4xNiwwLjAwOWwwLjQwNiwtMC4wMjNsLTAuMjQ2LDAuMDE0Wm0tMjkuODQ0LC0wLjAxNGwwLjQwNiwwLjAyM2wtMC4xNiwtMC4wMDlsLTAuMjQ2LC0wLjAxNFptLTAuNzIyLC0wLjA0M2wwLjQwNSwwLjAyNGwtMC4yNTMsLTAuMDE0bC0wLjE1MiwtMC4wMVptMzEuMzgyLDAuMDFsLTAuMjUzLDAuMDE0bDAuNDA1LC0wLjAyNGwtMC4xNTIsMC4wMVptLTMyLjA3MSwtMC4wNTNsMC4zNjUsMC4wMjNsLTAuMzQsLTAuMDIxbC0wLjM0MiwtMC4wMjJsMC4zMTcsMC4wMlptMzIuODg3LDAuMDAybC0wLjM0LDAuMDIxbDAuMzY1LC0wLjAyM2wwLjMxNywtMC4wMmwtMC4zNDIsMC4wMjJabTAuODE0LC0wLjA1M2wtMC4xMjIsMC4wMDhsMC4zODcsLTAuMDI2bC0wLjI2NSwwLjAxOFptLTM0Ljc1NSwtMC4wMThsMC4zODcsMC4wMjZsLTAuMTIyLC0wLjAwOGwtMC4yNjUsLTAuMDE4Wm0tMC43MjEsLTAuMDVsMC4zOCwwLjAyN2wtMC4yMDgsLTAuMDE0bC0wLjE3MiwtMC4wMTNabTM2LjI5LDAuMDEzbC0wLjIwOCwwLjAxNGwwLjM4LC0wLjAyN2wtMC4xNzIsMC4wMTNabS0zNy4wMDksLTAuMDY0bDAuMzQ5LDAuMDI1bC0wLjI3MSwtMC4wMTlsLTAuMDc4LC0wLjAwNlptMzcuODIyLDAuMDA2bC0wLjI3MSwwLjAxOWwwLjM0OSwtMC4wMjVsLTAuMDc4LDAuMDA2Wm0tMzguNzg5LC0wLjA3OWwwLjMwNiwwLjAyM2wtMC4wNzQsLTAuMDA1bC0wLjIzMiwtMC4wMThabTM5LjYwMiwwLjAxOGwtMC4wNzQsMC4wMDVsMC4zMDYsLTAuMDIzbC0wLjIzMiwwLjAxOFptMC44MTEsLTAuMDYzbC0wLjE0NiwwLjAxMWwwLjMxMSwtMC4wMjVsLTAuMTY1LDAuMDE0Wm0tNDEuMTU3LC0wLjAxNGwwLjMxMSwwLjAyNWwtMC4xNDYsLTAuMDExbC0wLjE2NSwtMC4wMTRabS0wLjcyNSwtMC4wNTlsMC4yNjQsMC4wMjJsLTAuMTg2LC0wLjAxNWwtMC4wNzgsLTAuMDA3Wm00Mi42OTQsMC4wMDdsLTAuMTg2LDAuMDE1bDAuMjY0LC0wLjAyMmwtMC4wNzgsMC4wMDdabS00My40OTIsLTAuMDc0bDAuMDc5LDAuMDA3bC0wLjAxMywtMC4wMDFsLTAuMDY2LC0wLjAwNlptNDQuMzAyLDAuMDA2bC0wLjAxMywwLjAwMWwwLjA3OSwtMC4wMDdsLTAuMDY2LDAuMDA2Wm0wLjgxLC0wLjA3MWwtMC4wNzIsMC4wMDZsMC4xODEsLTAuMDE2bC0wLjEwOSwwLjAxWm0tNDUuOTY1LC0wLjAxbDAuMTgxLDAuMDE2bC0wLjA3MiwtMC4wMDZsLTAuMTA5LC0wLjAxWm0tMC43NSwtMC4wNjhsMC4xMzUsMC4wMTNsLTAuMDg0LC0wLjAwOGwtMC4wNTEsLTAuMDA1Wm00Ny41MjMsMC4wMDVsLTAuMDg0LDAuMDA4bDAuMTM1LC0wLjAxM2wtMC4wNTEsMC4wMDVabS02My43MzYsLTIuMDI1Yy0xMjIuMzE5LC0xOS4yMjYgLTIxNiwtMTI1LjIwMyAtMjE2LC0yNTIuODg3YzAsLTE0MS4yOSAxMTQuNzEsLTI1NiAyNTYsLTI1NmMxNDEuMjksMCAyNTYsMTE0LjcxIDI1NiwyNTZjMCwxMjcuNjg0IC05My42ODEsMjMzLjY2MSAtMjE2LDI1Mi44ODdsMCwtMTc4Ljg4N2w1OS42NSwwbDExLjM1LC03NGwtNzEsMGwwLC00OC4wMjFjMCwtMjAuMjQ1IDkuOTE4LC0zOS45NzkgNDEuNzE5LC0zOS45NzlsMzIuMjgxLDBsMCwtNjNjMCwwIC0yOS4yOTYsLTUgLTU3LjMwNSwtNWMtNTguNDc2LDAgLTk2LjY5NSwzNS40NCAtOTYuNjk1LDk5LjZsMCw1Ni40bC02NSwwbDAsNzRsNjUsMGwwLDE3OC44ODdaIi8+PC9zdmc+" /></a>
-                    <a target="_blank" href="https://soundcloud.com/sinner62100"><img
-                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDk2IDk2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJMYXllciAyIiBpZD0iTGF5ZXJfMiI+PGcgZGF0YS1uYW1lPSJMYXllciAyIiBpZD0iTGF5ZXJfMi0yIj48cGF0aCBkPSJNNDgsMEE0OCw0OCwwLDEsMCw5Niw0OCw0OCw0OCwwLDAsMCw0OCwwWk0yMS40OCw1OWEyLjA3LDIuMDcsMCwxLDEtNC4xNCwwVjU0Ljg0YTIuMDcsMi4wNywwLDEsMSw0LjE0LDBabTguMzksMGEyLjEzLDIuMTMsMCwwLDEtMi4xNCwyLjA4QTIuMDgsMi4wOCwwLDAsMSwyNS42OCw1OVY1MC42NWEyLjA4LDIuMDgsMCwwLDEsMi4wNi0yLjA5LDIuMTMsMi4xMywwLDAsMSwyLjE0LDIuMDlabTguMzMsMEEyLjEsMi4xLDAsMCwxLDM0LDU5VjQ2LjQ4YTIuMSwyLjEsMCwxLDEsNC4xOSwwWm04LjM0LS41NWEyLjM5LDIuMzksMCwwLDEtMi4wOCwyLjYzLDIuMzksMi4zOSwwLDAsMS0yLjA4LTIuNjNWNDIuOGEyLjM3LDIuMzcsMCwwLDEsMi4wOC0yLjU4LDIuMzcsMi4zNywwLDAsMSwyLjA4LDIuNThabTI0LDIuNjNINTAuNzRWMzUuMzJhMTQuODUsMTQuODUsMCwwLDEsMy4xMy0uMywxNC41OCwxNC41OCwwLDAsMSwxNC4zMSwxMS45LDYsNiwwLDAsMSwyLjM2LS40NCw3LjMxLDcuMzEsMCwxLDEsMCwxNC42MVoiLz48L2c+PC9nPjwvc3ZnPg==" /></a>
-
-                </p>
-            </div>
-        </div>
-
-
-
-        <div class="genericContainer">
-
-            <h2>Bio</h2>
-
-            <p>[CZ]</p>
-            <p> Sinner je brněnský rodák, který se věnuje mixování od roku 2007, než se ale dostal k 170 bpm, hrál především hiphop a skilloval scratche a beatjuggling. Stejně tak postupně dozrál od tvrdších poloh DnB až k dnešní selekci deepu okořeněného o halftime a liquid, který od něj uslyšíte posledních pár let.
-                Po pár sólo promotérských pokusech a vetších hraních si ho v roce 2016 všimla brněnská crew Redrum, která ho přijala do svých řad a umožnila mu se tak podílet na utváření lokální scény a rožšiřování jeho promotérských dovedností. </p>
-            <br />
-            <p>Mixy k poslechu:</p>
-            <br />  
-            <p><a href = "https://soundcloud.com/sinner62100/sets/sinner-selects-2020" target="_blank">Sinner Selects 2020</a></p>
-           
-        </div>
-
-        <!-- <div class="genericContainer">
+    <!-- <div class="genericContainer">
             <div class="DJplaylist">
                 <iframe id="iframeBig" width="560" height="315"
                     src="https://www.youtube.com/embed/videoseries?list=PLr07BKCYBIMDdJpFJkqX8LLq2W9XUZgxT"
@@ -85,20 +84,16 @@
                     allowfullscreen></iframe>
             </div>
         </div> -->
+  </div>
+
+  <footer class="footerStyle">
+    <div class="genericContainer">
+      <div class="socialStrip">
+        <a target="_blank" href="https://www.facebook.com/redrum.dnb"><img src="fb.svg" /></a>
+        <a target="_blank" href="https://www.instagram.com/redrum_crew/"><img src="ig.svg" /></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCT7P47mk4PO97jnn0TjsAuw"><img src="yt.svg" /></a>
+      </div>
+      <div class="cc">2021&copy; Redrum Crew</div>
     </div>
-
-    <footer class="footerStyle">
-        <div class="genericContainer">
-            <div class="socialStrip">
-                <a target="_blank" href="https://www.facebook.com/redrum.dnb"><img src="fb.svg" /></a>
-                <a target="_blank" href="https://www.instagram.com/redrum_crew/"><img src="ig.svg" /></a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCT7P47mk4PO97jnn0TjsAuw"><img
-                        src="yt.svg" /></a>
-
-            </div>
-            <div class="cc">
-                2021&copy; Redrum Crew
-            </div>
-        </div>
-    </footer>
+  </footer>
 </body>
